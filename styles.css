@@ -81,8 +81,40 @@ section:nth-child(2) img:hover{
 
 /* ========== Estilos Sección 3 =========== */
 
+section:nth-child(3){
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+section:nth-child(3) p{
+    font-size: 15px;
+}
+
+section:nth-child(3) > div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+section:nth-child(3) > div:nth-child(2) > div:nth-child(1){
+   display: flex;
+   column-gap: 25px;
+}
+
+section:nth-child(3) > div:nth-child(2) > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+
+
 
 
 /*
+
 
 */
