@@ -110,11 +110,43 @@ section:nth-child(3) > div:nth-child(2) > div:nth-child(2){
     column-gap: 30px;
 }
 
+/* ========== Estilos Hipervínculos Texto =========== */
+
+.enlace-text{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: #C70101;
+    padding: 4px 10px;
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+
+.enlace-text:hover{
+    color: #C70101;
+    background: white;
+    box-shadow: 0px 0px 5px 1px #C70101;
+}
 
 
 
+
+
+
+
+
+/* ========== Estilos Hipervínculos íconos =========== */
 
 /*
+.enlace-icons{
+    font-size: 20px;
+    color: #4A4A4A;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
 
+.enlace-icons:hover{
+    color: #C70101;
+}
 
 */
