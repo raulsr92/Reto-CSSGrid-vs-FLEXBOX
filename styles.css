@@ -10,7 +10,7 @@
 /* ========== Estilos Card =========== */
 
 article{
-    width: 30%;
+    width: 26%;
     /*border: 2px solid black;*/
     border-radius: 20px;
     display: flex;
@@ -101,7 +101,7 @@ section:nth-child(3) > div:nth-child(2){
 
 section:nth-child(3) > div:nth-child(2) > div:nth-child(1){
    display: flex;
-   column-gap: 25px;
+   column-gap: 15px;
 }
 
 section:nth-child(3) > div:nth-child(2) > div:nth-child(2){
@@ -110,7 +110,7 @@ section:nth-child(3) > div:nth-child(2) > div:nth-child(2){
     column-gap: 30px;
 }
 
-/* ========== Estilos Hipervínculos Texto =========== */
+/* ======= Estilos Hipervínculos Botones ======= */
 
 .enlace-text{
     text-decoration: none;
@@ -128,16 +128,8 @@ section:nth-child(3) > div:nth-child(2) > div:nth-child(2){
     box-shadow: 0px 0px 5px 1px #C70101;
 }
 
-
-
-
-
-
-
-
 /* ========== Estilos Hipervínculos íconos =========== */
 
-/*
 .enlace-icons{
     font-size: 20px;
     color: #4A4A4A;
@@ -149,4 +141,3 @@ section:nth-child(3) > div:nth-child(2) > div:nth-child(2){
     color: #C70101;
 }
 
-*/
