@@ -11,8 +11,13 @@
 
 article{
     width: 30%;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 2% 0;
+    box-shadow: 5px 5px 8px 3px #A6ACAF
 }
 
 body{
@@ -22,13 +27,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 section:nth-child(2) img{
     width: 100%;
 }
-
-
-
 
 
 /*
