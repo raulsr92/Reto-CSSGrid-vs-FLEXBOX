@@ -60,14 +60,29 @@ section:nth-child(1) div h3{
 
 /* ========== Estilos Sección 2 =========== */
 
+section:nth-child(2){
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+section:nth-child(2) a{
+    display: grid;
+}
+
 section:nth-child(2) img{
     width: 100%;
+    transition: all 800ms ease;
 }
+
+section:nth-child(2) img:hover{
+    transform: scale(1.05);
+}
+
+/* ========== Estilos Sección 3 =========== */
+
 
 
 /*
 
 */
-
-
-/* ========== Estilos Sección 3 =========== */
